@@ -1,0 +1,10 @@
+client/bower_components/
+client/node_modules
+client/build
+client/vendors/bower_components/*
+!client/vendors/bower.json
+
+node_modules/
+backups/
+.idea
+
