@@ -25,7 +25,7 @@ var queue = require('kue').createQueue({
   redis: process.env.REDIS_URL
 });
 
-var SECRET = 'Frodo is a Dodo';
+var SECRET = 'MYSECRET';
 
 // LayerWebhooks is needed to create a webhooks service
 var webhooksServices = require('layer-webhooks-services');
