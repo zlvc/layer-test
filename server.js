@@ -28,7 +28,7 @@ var queue = require('kue').createQueue({
 var SECRET = 'Frodo is a Dodo';
 
 // LayerWebhooks is needed to create a webhooks service
-var webhooksServices = require('../src/index');
+var webhooksServices = require('layer-webhooks-services');
 var webhooksServices = new webhooksServices({
   token: process.env.LAYER_BEARER_TOKEN,
   appId: process.env.LAYER_APP_ID,
